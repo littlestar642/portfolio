@@ -108,13 +108,3 @@ particlesJS("particles-js", {
     },
     "retina_detect": true
 });
-var count_particles,update;
-
-update = function () {
-    
-    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-        count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-    }
-    requestAnimationFrame(update);
-};
-requestAnimationFrame(update);;
