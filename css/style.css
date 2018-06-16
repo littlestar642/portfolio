@@ -92,6 +92,32 @@
 
 #secondSlide {
     height: 100%;
+    
+}
+.change1{
+    
+    transform: translateY(30px);
+    transition: all .5s;
+    opacity: 0;
+}
+.change3{
+    transform: translateY(-50px);
+    transition: all .7s;
+    opacity: 0;
+}
+.change4{
+    transform: translateY(-50px);
+    transition: all .7s;
+    opacity: 0;
+}
+.change2{
+    transition: all .5s;
+    transform: translateY(40px);
+    opacity: 0;
+}
+.fadein{
+    transform: translate(0);
+    opacity: 1;
 }
 
 #secondSlide .wrapper {
